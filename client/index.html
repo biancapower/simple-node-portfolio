@@ -157,32 +157,32 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <!-- Contact form -->
-            <form id="contactForm" novalidate action="/contact">
+            <form id="contactForm" novalidate action="/contact" method="post">
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Name</label>
-                  <input class="form-control" id="name" type="text" placeholder="Name">
+                  <input class="form-control" id="name" type="text" placeholder="Name" name="name">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Email Address</label>
-                  <input class="form-control" id="email" type="email" placeholder="Email Address">
+                  <input class="form-control" id="email" type="email" placeholder="Email Address" name="email">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Phone Number</label>
-                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number">
+                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number" name="phone">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Message</label>
-                  <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Message" name="message"></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
